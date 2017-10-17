@@ -4,5 +4,5 @@ In this lab we made an LED blink with the press of a button. Even though this is
 # Difference in boards
 The main difference between the individual boards are the input pins and output pins. The FR5994 also needs to disable the GPIO power on high impedance mode.
 
-## Method
+# Method
 In the initilization I enabled the pull up reisistor of the led. Then  I Directed the button pin to input and the LED pin to output. I created a while loop that would turn on the LED everytime in the input value was zero.
